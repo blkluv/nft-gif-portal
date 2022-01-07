@@ -5,8 +5,9 @@ myepicproject = "9688YWvxPeaQfbjvugbHA6mpbETXFPqLassF4ms7JPVR"
 url = "https://anchor.projectserum.com"
 
 [provider]
-cluster = "devnet"
-wallet = "/Users/pwarrior/.config/solana/id.json"
+cluster = "https://api.devnet.solana.com"
+url = "https://api.devnet.solana.com"
+wallet = "/Users/hardworker1002/desktop/solana/my-keypair.json"
 
 [scripts]
 test = "node tests/myepicproject.js"
