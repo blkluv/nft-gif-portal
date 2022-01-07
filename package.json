@@ -1,8 +1,9 @@
     {
         "scripts": {
           "dev": "yarn next dev",
-          "build": "yarn next build",
-          "start": "yarn next start"
+          "start": "yarn next start",
+          "build": "babel src -d lib",
+          "test": "jest"
         },
     "dependencies": {
         "@project-serum/anchor": "^0.19.1-beta.1",
