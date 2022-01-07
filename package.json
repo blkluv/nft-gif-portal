@@ -1,6 +1,6 @@
 {
     "dependencies": {
-        "@project-serum/anchor": "^0.18.0",
+        "@project-serum/anchor": "^0.19.1-beta.1",
         "circular-json": "^0.5.9",
         "create-react-app": "^1.2.1",
         "date-fns": "^2.28.0"
