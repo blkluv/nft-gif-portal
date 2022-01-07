@@ -1,4 +1,9 @@
-{
+    {
+        "scripts": {
+          "dev": "yarn next dev",
+          "build": "yarn next build",
+          "start": "yarn next start"
+        },
     "dependencies": {
         "@project-serum/anchor": "^0.19.1-beta.1",
         "circular-json": "^0.5.9",
